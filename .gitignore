@@ -1,0 +1,68 @@
+# Arquivos compilados/otimizados em Python
+__pycache__
+*.py[cod]
+*$py.class
+
+# Extensões C
+*.so
+
+# Empacotamento e distribuição
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambientes virtuais
+# venv/ deve ser usado se o ambiente virtual estiver na raiz do projeto.
+# Se estiver em outro local (como ~/.venvs), não é necessário ignorar aqui.
+venv/
+env/
+.venv/
+bin/
+lib/
+include/
+
+# Arquivos temporários e de log
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos do PyInstaller
+*.manifest
+*.spec
+
+# Testes e cobertura
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.netrc
+
+# IDEs (PyCharm e outros JetBrains IDEs)
+# Ignora a pasta .idea/ inteira, exceto por alguns arquivos de metadados
+# de controle de versão que podem ser úteis para a equipe.
+.idea/
+!.idea/workspace.xml
+!.idea/tasks.xml
+!.idea/vcs.xml
+!.idea/modules.xml
+
+# Credenciais e arquivos sensíveis (adicione conforme necessário)
+# Por exemplo, se você tiver um arquivo de configurações locais com senhas
+# config.ini
+# credentials.json
